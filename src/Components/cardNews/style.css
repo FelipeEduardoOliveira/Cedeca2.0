@@ -1,0 +1,47 @@
+.containerCard{
+    display: flex;
+    flex-direction: row;
+    width: 630px;
+}
+
+.containerCard img{
+width: 226px;
+height: 208px;
+}
+
+.containerCard div{
+    padding-left: 34px;
+}
+
+.containerCard div h3{
+    font-family: Rockwell;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+}
+
+.containerCard div p {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: justify;
+}
+
+.containerCard div a {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: justify;
+text-decoration-line: underline;
+color: #56A995;
+}
+
+.containerCard div a:hover {
+    cursor: pointer;
+    color:#CBABC5
+}

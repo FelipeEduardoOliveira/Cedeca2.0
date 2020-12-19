@@ -1,0 +1,35 @@
+.headerContainer{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    align-items: center;
+    /* border: 1px solid gold; */
+}
+.headerContainer header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    
+}
+
+.headerContainer ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 20px;
+    
+    
+
+}
+
+.headerContainer ul li{
+    padding:0 20px;
+    cursor: pointer;
+}

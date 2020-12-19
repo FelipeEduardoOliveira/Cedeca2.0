@@ -1,0 +1,31 @@
+
+.fundo{
+    /* position: absolute; */
+    text-align: center;
+    background-image: url('../../image/fundo.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 474px;
+}
+
+.fundo h1{
+    color: #fff;
+font-family: Rockwell;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+padding-top: 164px;
+margin: 0;
+}
+
+.fundo p{
+margin-top: 0;
+color: #fff;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+text-align: center;
+}

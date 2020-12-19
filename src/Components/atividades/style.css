@@ -1,0 +1,102 @@
+.containerAtividades{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 565px; */
+    background: #CBABC5;
+   
+}
+
+.containerAtividades h1{
+    padding: 0 30px;
+    padding-bottom: 30px;
+    font-family: Rockwell;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+color: #000000;
+}
+
+.containerAtividades p{
+    padding: 0 30px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+height: 76px;
+padding-bottom: 18px;
+}
+
+
+
+
+
+
+
+.containerAtividades .atividadesSemana{
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    
+}
+
+.containerAtividades .atividadesSemana h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #000000;
+margin: 0;
+padding-bottom: 18px;
+}
+
+.containerAtividades .atividadesSemana .diaSemana{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.containerAtividades .atividadesSemana .diaSemana p{
+    padding: 0 10px;
+    width: 198px;
+    height: 71px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+}
+
+.containerAtividades .atividadesSemana .diaSemana p:hover{
+    background-color: #A1CEC3;
+    cursor: default;
+}
+
+@media(max-width: 1178px){
+    .containerAtividades .atividadesSemana{
+        grid-template-columns: auto auto auto ;
+    }
+}
+
+@media(max-width: 702px){
+    .containerAtividades .atividadesSemana{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media(max-width: 420px){
+    .containerAtividades .atividadesSemana{
+        grid-template-columns: auto;
+    }
+}

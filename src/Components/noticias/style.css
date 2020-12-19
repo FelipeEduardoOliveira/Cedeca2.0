@@ -1,0 +1,24 @@
+section{
+    padding: 0 30px;
+}
+
+section h1{
+    padding: 25px 0 ;
+    font-family: Rockwell;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 52px;
+}
+
+section .cardsNews{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 10px
+}
+
+@media(max-width: 1300px){
+    section .cardsNews{
+        grid-template-columns: auto  ;
+    }
+}
