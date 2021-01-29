@@ -11,7 +11,7 @@ class Button extends Component{
 
     render(){
         return(
-            <button>
+            <button onClick={()=>window.location='/comoajudar'}>
                {this.props.nameButton}
             </button>
         );

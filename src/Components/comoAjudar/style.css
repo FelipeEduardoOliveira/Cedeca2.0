@@ -1,0 +1,67 @@
+
+.comoAjudar{
+    /*  */
+}
+
+.comoAjudar h1{
+    font-family: Rockwell;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+color: #343434;
+padding: 0 30px;
+padding-left: 30px;
+}
+
+.comoAjudar h3{
+    padding: 0 30px;
+padding-left: 30px;
+font-family: Rockwell;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+/* green1 */
+
+color: #56A995;
+}
+
+.comoAjudar p{
+    padding: 0 30px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+text-align: justify;
+}
+
+
+.comoAjudar .column1{
+    padding-top: 77px;
+}
+
+
+.comoAjudar .column2{
+    width: 100%;
+    background: #CBABC5;
+}
+
+.comoAjudar .column2 p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    
+    color: #343434;
+}
+
+.comoAjudar .column2 div{
+    display: flex;
+    padding: 15px 0;
+}
+.comoAjudar .column2 button{
+    margin: 0 auto;
+}

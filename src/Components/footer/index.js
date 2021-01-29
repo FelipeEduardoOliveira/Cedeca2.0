@@ -9,7 +9,7 @@ import face from '../../image/faceIconWhite.svg';
 
 function Footer(){
     return(
-        <div>
+        
             <footer className='containerFooter'>
                 <div className='bloco1'>
                         <h1>
@@ -86,7 +86,7 @@ function Footer(){
             </footer>
            
             
-        </div>
+        
     );
 }
 

@@ -1,16 +1,20 @@
 import React from 'react';
 import './style.css';
+import {Link} from 'react-router-dom';
 import Button from '../button';
 import logoCedeca from '../../image/logoCedeca.svg';
 function Header(){
+    
     return(
         <div className='headerContainer'>
             
             <header>
                 <img src={logoCedeca} alt='Logotipo da institução'/>
                 <ul>
-                    <li> Inicio </li>
-                    <li> Quem somos </li>
+                    <li> <Link to='/'> Inicio </Link> </li>
+                    <li> 
+                        <Link to='/quemsomos'> Quem somos </Link> 
+                    </li>
                     <li> Atividades 
                         {/* <ul>
                             <li>Futebol</li>

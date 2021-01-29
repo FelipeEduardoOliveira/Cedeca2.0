@@ -13,7 +13,6 @@ padding: 0 30px;
 
 article div{
     width: 561px;
-    /* border: 1px solid gold; */
     height: 553px;
 }
 
@@ -47,6 +46,16 @@ article div img{
         grid-template-columns: auto  ;
     }
     article div{
-        margin: 40px 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 750px){
+     article div{
+        width: 100%;
+    }
+
+    .quemAjudamos img{
+        margin-top: 140px;
     }
 }

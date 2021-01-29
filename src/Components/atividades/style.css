@@ -100,3 +100,9 @@ color: #000000;
         grid-template-columns: auto;
     }
 }
+
+@media(max-width: 750px){
+    .containerAtividades .atividadesSemana .diaSemana p{
+       border:1px solid red
+   }
+}

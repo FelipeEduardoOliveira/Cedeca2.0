@@ -8,6 +8,10 @@
     align-items: center;
     /* border: 1px solid gold; */
 }
+.headerContainer img{
+    
+    padding: 0 30px;
+}
 .headerContainer header{
     position: fixed;
     width: 100%;
@@ -32,4 +36,19 @@
 .headerContainer ul li{
     padding:0 20px;
     cursor: pointer;
+}
+.headerContainer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width: 750px){
+    .headerContainer ul{
+    
+        display: none;
+    }
+
+    .headerContainer img{
+      display: none;
+    }
 }

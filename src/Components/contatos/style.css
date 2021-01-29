@@ -1,14 +1,16 @@
 .containerFormulario{
-    width: 100%;
     padding: 0 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 40px;
+    
 }
 
 
 .containerFormulario .contatos .container{
     display: flex;
+    
     flex-direction: row;
     align-items: center;
     padding: 5px 0;
@@ -17,11 +19,13 @@
 .containerFormulario .contatos .container p, .containerFormulario .contatos .container a{
     padding-left: 20px;
     color: black;
+    
 }
 
 .formulario .container{
     display: flex;
     flex-direction: column;
+    
 }
 .formulario .container label{
     font-family: Montserrat;
@@ -29,6 +33,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
+    
 }
 
 .formulario .container input{
@@ -43,4 +48,12 @@ border-radius: 7px;
 
 .formulario .container .msg{
     height:257px;
+}
+
+@media(max-width: 750px){
+    .containerFormulario{
+     
+        flex-direction: column;
+        align-items: center;
+    }
 }

@@ -2,19 +2,24 @@ import React from 'react';
 import './style.css';
 import Button from '../button';
 
-function Back(){
+function Back(porps){
     return(
         <div  className='fundo'>
            <h1>
-               CEDECA
+               {porps.h1}
            </h1>
 
            <p>
-           Centro de Defesa da Criança e do Adolescente
+           {porps.p}
 
            </p>
 
-           <Button nameButton='Quero Ajudar'/>
+            {
+               porps.button ?
+               <Button nameButton='Quero Ajudar'/>
+               :
+               ''
+            }
         </div>
     );
 }

@@ -22,3 +22,9 @@ section .cardsNews{
         grid-template-columns: auto  ;
     }
 }
+
+@media(max-width: 750px){
+    section{
+        margin-top: 200px;
+    }
+}

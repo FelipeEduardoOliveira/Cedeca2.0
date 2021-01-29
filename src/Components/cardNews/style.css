@@ -45,3 +45,14 @@ color: #56A995;
     cursor: pointer;
     color:#CBABC5
 }
+
+@media(max-width: 750px){
+    .containerCard{
+        width: 100%;
+        flex-direction: column;
+        /* border: 1px solid gold; */
+    }
+    .containerCard img{
+        width: 100%;
+    }
+}

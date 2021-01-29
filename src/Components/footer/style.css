@@ -1,5 +1,5 @@
 .containerFooter{
-    margin-top: 40px;
+    /* margin-top: 40px; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -40,4 +40,22 @@ color: #FFFFFF
 .containerFooter .bloco3 .cont p, .containerFooter .bloco3 .cont a{
     padding-left: 20px;
     color: white
+}
+
+@media(max-width: 750px){
+    .containerFooter{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerFooter .bloco2 p{
+        text-align:center;
+        }
+
+        .containerFooter h1{
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+        }
+
 }
